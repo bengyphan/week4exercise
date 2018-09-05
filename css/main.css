@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	width: 24%;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: tomato;
+}
+h1 {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeOut;
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@media (max-width: 600px) {
+	.blue {
+		display: none;
+	}
+	.green {
+		display: none;
+	}
+}
+
+@media (min-width: 1000px) {
+	.blue {
+		width: 100%;
+	}
+	.red {
+		width: 100%;
+	}
+	.green {
+		width: 100%;
+	}
+	.yellow {
+		width: 100%;
+	}
+	.
+}
